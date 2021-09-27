@@ -39,7 +39,7 @@ function QuestionForm({handleNewQuestion}) {
       
     })
     .then(resp => resp.json())
-    .then(question => handleNewQuestion(question))
+    .then(question => console.log(question))
     ;
     
   }
